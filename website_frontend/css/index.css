@@ -1,0 +1,174 @@
+html,body {
+    margin: 0;
+    padding: 0;
+    font-size: 2.5vh;
+    overflow-x: hidden;
+}
+
+.displayOverview > div {
+    margin-bottom: 20vh;
+}
+
+#destinationSuggester {
+    margin: 3vh;
+}
+
+.destinationDescriber {
+    display: none;
+}
+
+.destinationDescriber > span {
+    border: solid chocolate;
+    font-size: 3vh;
+    font-family: "Ubuntu Condensed";
+    padding: 1vh;
+    margin: 1vh;
+    color: white;
+    background-color: orange;
+    text-align: center;
+    border-radius: 4vh;
+}
+
+.destinationDescriber > span > a > i {
+    color: white;
+}
+
+#bottomDecorator {
+    left: 10vw;
+    width: 80vw;
+}
+
+#destinationSuggester > .carousel {
+    height: 20vh;
+}
+
+.active {
+    display: block;
+}
+
+#destinationSuggester > .carousel > .carousel-item {
+    height: 20vh;
+}
+
+#destinationSuggester > .carousel > .carousel-item > img {
+    height: 20vh;
+}
+
+.oneBlockView > span {
+    text-align: center;
+    font-family: "Ubuntu Condensed";
+    color: purple;
+    border: solid darkorange;
+    border-radius: 4vh;
+    font-size: 3vh;
+    padding: 1vh;
+}
+
+#bannerFORTIO {
+    color: white;
+    font-size: 3vh;
+    background-color: transparent;
+}
+
+#bannerFORTIO > div:nth-child(1) {
+    width: 100%;
+    text-align: center;
+}
+
+#bannerFORTIO a > i {
+    vertical-align: middle;
+}
+
+#bannerFORTIO > div > div {
+    text-align: center;
+}
+
+.procedureSteps {
+    margin: 4vh;
+}
+
+#procedureExplain > div > b {
+    font-size: 3vh;
+}
+
+#procedureExplain > div > b > a > i{
+    font-size: 3vh;
+}
+
+#footerBlock > footer{
+    background-color: darkolivegreen;
+    height: 50vh;
+}
+
+#helpMenu {
+    position: fixed;
+    top: 5vh;
+    left: 5vw;
+}
+
+#headerDisplay {
+    background-image: url("../../images/valley-nature.jpg");
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+    margin-bottom: 20vh;
+}
+
+#searchBar {
+    margin: 0;
+}
+
+label[for=searchBar] {
+    color: yellow;
+    font-weight: bold;
+    font-size: 3vh;
+}
+
+.input-field {
+    margin: 0;
+}
+
+#centerSearchBar {
+    width: 80vw;
+    color: white;
+    left: 10vw;
+}
+
+#centerSearchBar > span {
+    position: relative;
+    top: 2vh;
+}
+
+input[type=text]:not(.browser-default):focus:not([readonly]) {
+    border-bottom: 1px solid white;
+    -webkit-box-shadow: 0 1px 0 0 white;
+    box-shadow: 0 1px 0 0 white;
+}
+
+input[type=text]:not(.browser-default):focus:not([readonly]) + label {
+    color: white;
+    font-size: 3vh;
+}
+
+#normalDisplay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh;
+    width: 100vw;
+    z-index: 2;
+}
+
+#darkerOverlap {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 100vw;
+    z-index: 1;
+    background-color: black;
+    opacity: 0.6;
+}

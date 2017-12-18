@@ -1,0 +1,468 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>FOTRIO</title>
+    <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!--Import materialize.css-->
+    <link type="text/css" rel="stylesheet" href="css/materialize.css"  media="screen,
+    projection"/>
+    <link rel="stylesheet" href="css/index.css">
+    <!--Let browser know website is optimized for mobile-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+</head>
+<body>
+
+<!--Home Page header display-->
+<div id="headerDisplay">
+    <div id="darkerOverlap">
+    </div>
+    <div id="normalDisplay">
+        <div id="helpMenu">
+            <a class="background yellow btn btn-floating pulse">
+                <i class="black-text material-icons">
+                    menu
+                </i>
+            </a>
+        </div>
+        <div class="row" id="centerSearchBar">
+            <div class="col l8 offset-l1">
+                <div class="input-field">
+                    <input id="searchBar" type="text">
+                    <label for="searchBar">
+                        Enter City
+                    </label>
+                </div>
+            </div>
+            <span class="col l2 offset-l1">
+                <a>
+                    <i class="yellow-text material-icons">
+                        search
+                    </i>
+                </a>
+            </span>
+        </div>
+        <div class="row" id="bottomDecorator">
+            <div id="bannerFORTIO" class="container row col l12">
+                <div class="col l12">
+                    <h4>
+                        <b>
+                            <u>
+                                FOTRIO
+                            </u>
+                        </b>
+                    </h4>
+                </div>
+                <div class="row col l12">
+                    <div class="col l12">
+                        <a>
+                            <i class="white-text material-icons">
+                                cancel
+                            </i>
+                        </a>
+                        &nbsp;No more searching different websites for hotel bookings
+                    </div>
+                    <div class="col l12">
+                        <a>
+                            <i class="yellow-text material-icons">
+                                check_circle
+                            </i>
+                        </a>
+                        &nbsp;Search on
+                        <b class="yellow-text">
+                            FOTRIO
+                        </b>
+                        and get packing and moving
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!--display of the entire HOME PAGE-->
+<div class="container displayOverview">
+    <div class="oneBlockView" id="procedure">
+        <span id="procedureHeading">
+            Easy To Use
+        </span>
+        <div class="row" id="procedureExplain">
+            <div class="col l3 offset-l1 procedureSteps">
+                <a>
+                    <i class="material-icons">
+                        filter_1
+                    </i>
+                </a>
+                &nbsp;
+                <b>
+                    Search
+                    <a>
+                        <i class="material-icons">
+                            search
+                        </i>
+                    </a>
+                </b>
+                <br>
+                Loremipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
+                nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+            </div>
+            <div class="col l3 offset-l1 procedureSteps">
+                <a>
+                    <i class="material-icons">
+                        filter_2
+                    </i>
+                </a>
+                &nbsp;
+                <b>
+                    Choose
+                    <a>
+                        <i class="material-icons">
+                            favorite
+                        </i>
+                    </a>
+                </b>
+                <br>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
+                nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+            </div>
+            <div class="col l3 offset-l2 procedureSteps">
+                <a>
+                    <i class="material-icons">
+                        filter_3
+                    </i>
+                </a>
+                &nbsp;
+                <b>
+                    Pay
+                    <a>
+                        <i class="material-icons">
+                            payment
+                        </i>
+                    </a>
+                </b>
+                <br>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
+                nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+            </div>
+            <div class="col l3 offset-l2 procedureSteps">
+                <a>
+                    <i class="material-icons">
+                        filter_4
+                    </i>
+                </a>
+                &nbsp;
+                <b>
+                    Receive Email
+                    <a>
+                        <i class="material-icons">
+                            mail_outline
+                        </i>
+                    </a>
+                </b>
+                <br>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
+                nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+            </div>
+        </div>
+    </div>
+    <div class="oneBlockView">
+        <span>
+            Destinations
+        </span>
+        <div class="row" id="destinationSuggester">
+            <div class="col offset-l2 l8" id="suggestionBanner">
+                <b>
+                    Confused there ?
+                </b>
+                <br>
+                We thought so, that is why we present to you our
+                <b>
+                    Destination Suggester
+                </b>
+                . You can proceed by selecting a country and we'll show you
+                the places you can visit.
+            </div>
+            <div class="row">
+                <div class="input-field col l3 offset-l2">
+                    <select>
+                        <option value="" disabled selected>Select Your City</option>
+                        <option value="1">Option 1</option>
+                        <option value="2">Option 2</option>
+                        <option value="3">Option 3</option>
+                    </select>
+                </div>
+            </div>
+            <div class="carousel">
+                    <a class="clickTabs carousel-item" href="#destinationDescription1">
+                        <img src="../images/valley-nature.jpg">
+                    </a>
+                    <a class="clickTabs carousel-item" href="#destinationDescription2">
+                        <img src="../images/valley-nature.jpg">
+                    </a>
+                    <a class="clickTabs carousel-item" href="#destinationDescription3">
+                        <img src="../images/valley-nature.jpg">
+                    </a>
+                    <a class="clickTabs carousel-item" href="#destinationDescription4">
+                        <img src="../images/valley-nature.jpg">
+                    </a>
+                    <a class="clickTabs carousel-item" href="#destinationDescription5">
+                        <img src="../images/valley-nature.jpg">
+                    </a>
+            </div>
+            <div class="row">
+                <div id="destinationDescription1" class="col l6 offset-l3 active
+                destinationDescriber">
+                    <br>
+                    <span class="col l6">
+                        <a>
+                            <i class="material-icons">
+                                location_city
+                            </i>
+                        </a>
+                        <b>
+                            City Name1
+                        </b>
+                    </span>
+                    <div class="col l12">
+                    </div>
+                    <span class="col l6">
+                        <a>
+                            <i class="material-icons">
+                                location_on
+                            </i>
+                        </a>
+                        <b>
+                            Location
+                        </b>
+                    </span>
+                    <div class="col l12">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+                        veniam,quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+                        commodoconsequat. Duis aute irure dolor in reprehenderit in voluptate
+                        velitessecillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
+                        cupidatatnonproident, sunt in culpa qui officia deserunt mollit anim
+                        id est laborum.
+                    </div>
+                </div>
+                <div id="destinationDescription2" class="col l6 offset-l3 destinationDescriber">
+                    <br>
+                    <span class="col l6">
+                        <a>
+                            <i class="material-icons">
+                                location_city
+                            </i>
+                        </a>
+                        <b>
+                            City Name2
+                        </b>
+                    </span>
+                    <div class="col l12">
+                    </div>
+                    <span class="col l6">
+                        <a>
+                            <i class="material-icons">
+                                location_on
+                            </i>
+                        </a>
+                        <b>
+                            Location
+                        </b>
+                    </span>
+                    <div class="col l12">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+                        veniam,quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+                        commodoconsequat. Duis aute irure dolor in reprehenderit in voluptate
+                        velitessecillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
+                        cupidatatnonproident, sunt in culpa qui officia deserunt mollit anim
+                        id est laborum.
+                    </div>
+                </div>
+                <div id="destinationDescription3" class="col l6 offset-l3 destinationDescriber">
+                    <br>
+                    <span class="col l6">
+                        <a>
+                            <i class="material-icons">
+                                location_city
+                            </i>
+                        </a>
+                        <b>
+                            City Name3
+                        </b>
+                    </span>
+                    <div class="col l12">
+                    </div>
+                    <span class="col l6">
+                        <a>
+                            <i class="material-icons">
+                                location_on
+                            </i>
+                        </a>
+                        <b>
+                            Location
+                        </b>
+                    </span>
+                    <div class="col l12">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+                        veniam,quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+                        commodoconsequat. Duis aute irure dolor in reprehenderit in voluptate
+                        velitessecillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
+                        cupidatatnonproident, sunt in culpa qui officia deserunt mollit anim
+                        id est laborum.
+                    </div>
+                </div>
+                <div id="destinationDescription4" class="col l6 offset-l3 destinationDescriber">
+                    <br>
+                    <span class="col l6">
+                        <a>
+                            <i class="material-icons">
+                                location_city
+                            </i>
+                        </a>
+                        <b>
+                            City Name4
+                        </b>
+                    </span>
+                    <div class="col l12">
+                    </div>
+                    <span class="col l6">
+                        <a>
+                            <i class="material-icons">
+                                location_on
+                            </i>
+                        </a>
+                        <b>
+                            Location
+                        </b>
+                    </span>
+                    <div class="col l12">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+                        veniam,quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+                        commodoconsequat. Duis aute irure dolor in reprehenderit in voluptate
+                        velitessecillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
+                        cupidatatnonproident, sunt in culpa qui officia deserunt mollit anim
+                        id est laborum.
+                    </div>
+                </div>
+                <div id="destinationDescription5" class="col l6 offset-l3 destinationDescriber">
+                    <br>
+                    <span class="col l6">
+                        <a>
+                            <i class="material-icons">
+                                location_city
+                            </i>
+                        </a>
+                        <b>
+                            City Name5
+                        </b>
+                    </span>
+                    <div class="col l12">
+                    </div>
+                    <span class="col l6">
+                        <a>
+                            <i class="material-icons">
+                                location_on
+                            </i>
+                        </a>
+                        <b>
+                            Location
+                        </b>
+                    </span>
+                    <div class="col l12">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+                        veniam,quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+                        commodoconsequat. Duis aute irure dolor in reprehenderit in voluptate
+                        velitessecillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
+                        cupidatatnonproident, sunt in culpa qui officia deserunt mollit anim
+                        id est laborum.
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="oneBlockView">
+        <span>
+            Travel
+        </span>
+        <div class="row">
+        </div>
+    </div>
+    <div class="oneBlockView">
+        <span>
+            Share With People
+        </span>
+        <div class="row">
+
+        </div>
+    </div>
+</div>
+
+<!--display of the footer of the HOME PAGE-->
+<div id="footerBlock">
+    <footer class="page-footer">
+        <div class="container">
+            <div class="row">
+                <div class="col l6 s12">
+                    <h5 class="white-text">
+                        Footer Content
+                    </h5>
+                    <p class="grey-text text-lighten-4">
+                        You can use rows and columns here to
+                        organize your footer content.
+                    </p>
+                </div>
+                <div class="col l4 offset-l2 s12">
+                    <h5 class="white-text">
+                        Links
+                    </h5>
+                    <ul>
+                        <li>
+                            <a class="grey-text text-lighten-3" href="#!">
+                                Link 1
+                            </a>
+                        </li>
+                        <li>
+                            <a class="grey-text text-lighten-3" href="#!">
+                                Link 2
+                            </a>
+                        </li>
+                        <li>
+                            <a class="grey-text text-lighten-3" href="#!">
+                                Link 3
+                            </a>
+                        </li>
+                        <li>
+                            <a class="grey-text text-lighten-3" href="#!">
+                                Link 4
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="footer-copyright">
+            <div class="container">
+                © 2014 All Rights Reserved By FOTRIO INC.
+                <a class="grey-text text-lighten-4 right" href="#!">
+                    More Links
+                </a>
+            </div>
+        </div>
+    </footer>
+</div>
+
+<!--Import jQuery before materialize.js-->
+<script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+<script type="text/javascript" src="js/materialize.js"></script>
+<script src="js/index.js"></script>
+</body>
+</html>
